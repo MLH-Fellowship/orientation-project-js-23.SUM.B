@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease-in-out;
+  }
+  

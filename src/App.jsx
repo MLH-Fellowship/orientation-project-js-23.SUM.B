@@ -1,15 +1,15 @@
-import "./App.css";
-import ResumeSection from "../src/components/ResumeSection";
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Education from './pages/Education/Education';
 
 function App() {
   return (
     <div className="App">
-      <h1>Resume Builder</h1>
-      <ResumeSection title="Experience" content="Experience Placeholder" />
-      <ResumeSection title="Education" content="Education Placeholder" />
-      <ResumeSection title="Skills" content="Skill Placeholder" />
-      <br></br>
-      <button>Export</button>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="education" element={<Education />} />
+      </Routes>
     </div>
   );
 }
