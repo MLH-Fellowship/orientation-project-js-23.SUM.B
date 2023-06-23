@@ -38,19 +38,19 @@ const Form = () => {
         className="form-input"
       />
 
-      <label htmlFor="start_date">Start date:</label>
+      <label htmlFor="Start date">Start date:</label>
       <input
         type="date"
-        id="start_date"
+        id="Start date"
         value={startDate}
         onChange={(event) => setStartDate(event.target.value)}
         className="form-input"
       />
 
-      <label htmlFor="end_date">End date:</label>
+      <label htmlFor="End date">End date:</label>
       <input
         type="date"
-        id="end_date"
+        id="End date"
         value={endDate}
         onChange={(event) => setEndDate(event.target.value)}
         className="form-input"
