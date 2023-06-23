@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function ResumeSection(props) {
   return (
@@ -7,7 +7,7 @@ function ResumeSection(props) {
       <h2>{props.title}</h2>
       <p>{props.content}</p>
       <Link to={props.link}>
-      <button>Add {props.title}</button>
+        <button>Add {props.title}</button>
       </Link>
       <br></br>
     </div>

@@ -8,7 +8,6 @@ const Navbar = () => {
       <Link to="/">
         <h3 className="logo">🏠Home</h3>
       </Link>
-
     </nav>
   );
 };
